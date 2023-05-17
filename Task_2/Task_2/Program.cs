@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 /*
     - Шепелев Данил
     - 17.05.2023
@@ -9,7 +10,7 @@ namespace Task_2
 {
     class Program
     {
-        static void RemoveDups(String str)
+        static void RemoveDups(StringBuilder str)
         {
             for(int i = 0; i < str.Length - 1; i++)
             {
@@ -19,12 +20,15 @@ namespace Task_2
                     i--;
                 }
             }
-            Console.WriteLine(str);
         }
 
         static void Main(string[] args)
         {
-            RemoveDups("AAA BBB CCC FF");
+            StringBuilder str = new StringBuilder("AAA BB B CcC");
+
+            RemoveDups(str);
+
+            Console.WriteLine(str);
         }
     }
 }
