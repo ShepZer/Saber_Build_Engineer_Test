@@ -24,7 +24,7 @@ namespace Task_2
 
         static void Main(string[] args)
         {
-            StringBuilder str = new StringBuilder("AAA BB B CcC");
+            var str = new StringBuilder("AAA BB B CcC");
 
             RemoveDups(str);
 
