@@ -8,9 +8,11 @@
 void RemoveDups(StringBuilder str);
 
 // пример использования
-
+```
 var data = new StringBuilder("AAA BBB AAA");
 
 RemoveDups(data);
 
 Console.WriteLine(data); // "A B A"
+```
+
