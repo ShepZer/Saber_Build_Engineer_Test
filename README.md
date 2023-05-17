@@ -9,10 +9,10 @@ void RemoveDups(StringBuilder str);
 
 // пример использования
 ```
-var data = new StringBuilder("AAA BBB AAA");
+var str = new StringBuilder("AAA BB B CcC");
 
-RemoveDups(data);
+RemoveDups(str);
 
-Console.WriteLine(data); // "A B A"
+Console.WriteLine(str); // программы выведет:A B B CcC
 ```
 
